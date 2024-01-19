@@ -1,0 +1,6 @@
+framework module Pods_BitenTechincalTask {
+  umbrella header "Pods-BitenTechincalTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

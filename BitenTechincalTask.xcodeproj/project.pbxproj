@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412439C72B52B20B008FFA5D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412439C62B52B20B008FFA5D /* Layout.swift */; };
+		412439C92B52B7C7008FFA5D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412439C82B52B7C7008FFA5D /* ViewModel.swift */; };
+		412439CB2B52B7DA008FFA5D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412439CA2B52B7DA008FFA5D /* NetworkService.swift */; };
+		412439CD2B52B872008FFA5D /* NatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412439CC2B52B872008FFA5D /* NatureModel.swift */; };
+		412439D52B52BE97008FFA5D /* CustomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412439D42B52BE97008FFA5D /* CustomModel.swift */; };
+		412439D72B52C1E9008FFA5D /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412439D62B52C1E9008FFA5D /* CustomImage.swift */; };
 		41C12C682B501CF700CE79FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C12C672B501CF700CE79FE /* AppDelegate.swift */; };
 		41C12C6A2B501CF700CE79FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C12C692B501CF700CE79FE /* SceneDelegate.swift */; };
 		41C12C6C2B501CF700CE79FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C12C6B2B501CF700CE79FE /* ViewController.swift */; };
-		41C12C6F2B501CF700CE79FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C12C6D2B501CF700CE79FE /* Main.storyboard */; };
 		41C12C712B501CFC00CE79FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C12C702B501CFC00CE79FE /* Assets.xcassets */; };
 		41C12C742B501CFC00CE79FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C12C722B501CFC00CE79FE /* LaunchScreen.storyboard */; };
+		41C12C7E2B50211000CE79FE /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C12C7D2B50211000CE79FE /* MainCollectionViewCell.swift */; };
+		DF0D4D44015B30A675149806 /* Pods_BitenTechincalTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF1C607D35CFBAAB3B0678C /* Pods_BitenTechincalTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		412439C62B52B20B008FFA5D /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		412439C82B52B7C7008FFA5D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		412439CA2B52B7DA008FFA5D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		412439CC2B52B872008FFA5D /* NatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureModel.swift; sourceTree = "<group>"; };
+		412439D42B52BE97008FFA5D /* CustomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModel.swift; sourceTree = "<group>"; };
+		412439D62B52C1E9008FFA5D /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		41C12C642B501CF700CE79FE /* BitenTechincalTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitenTechincalTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C12C672B501CF700CE79FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C12C692B501CF700CE79FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41C12C6B2B501CF700CE79FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41C12C6E2B501CF700CE79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C12C702B501CFC00CE79FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C12C732B501CFC00CE79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C12C752B501CFC00CE79FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C12C7D2B50211000CE79FE /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		85C0B55F1F43DF76E11F9CA3 /* Pods-BitenTechincalTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitenTechincalTask.debug.xcconfig"; path = "Target Support Files/Pods-BitenTechincalTask/Pods-BitenTechincalTask.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1F4B2A30A4E8A427E07C2B /* Pods-BitenTechincalTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitenTechincalTask.release.xcconfig"; path = "Target Support Files/Pods-BitenTechincalTask/Pods-BitenTechincalTask.release.xcconfig"; sourceTree = "<group>"; };
+		9CF1C607D35CFBAAB3B0678C /* Pods_BitenTechincalTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitenTechincalTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0D4D44015B30A675149806 /* Pods_BitenTechincalTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C67BF6C789FCB90E049471C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CF1C607D35CFBAAB3B0678C /* Pods_BitenTechincalTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		412439CE2B52BE17008FFA5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41C12C6B2B501CF700CE79FE /* ViewController.swift */,
+				41C12C7D2B50211000CE79FE /* MainCollectionViewCell.swift */,
+				412439C62B52B20B008FFA5D /* Layout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		412439CF2B52BE1C008FFA5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				412439CC2B52B872008FFA5D /* NatureModel.swift */,
+				412439D42B52BE97008FFA5D /* CustomModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		412439D02B52BE23008FFA5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				412439C82B52B7C7008FFA5D /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		412439D12B52BE2A008FFA5D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				412439CA2B52B7DA008FFA5D /* NetworkService.swift */,
+				412439D62B52C1E9008FFA5D /* CustomImage.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		412439D22B52BE2F008FFA5D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				41C12C702B501CFC00CE79FE /* Assets.xcassets */,
+				41C12C722B501CFC00CE79FE /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		412439D32B52BE36008FFA5D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				41C12C672B501CF700CE79FE /* AppDelegate.swift */,
+				41C12C692B501CF700CE79FE /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		41C12C5B2B501CF700CE79FE = {
 			isa = PBXGroup;
 			children = (
 				41C12C662B501CF700CE79FE /* BitenTechincalTask */,
+				412439D22B52BE2F008FFA5D /* Assets */,
 				41C12C652B501CF700CE79FE /* Products */,
+				BB07C135E501E1246C623428 /* Pods */,
+				3C67BF6C789FCB90E049471C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +138,23 @@
 		41C12C662B501CF700CE79FE /* BitenTechincalTask */ = {
 			isa = PBXGroup;
 			children = (
-				41C12C672B501CF700CE79FE /* AppDelegate.swift */,
-				41C12C692B501CF700CE79FE /* SceneDelegate.swift */,
-				41C12C6B2B501CF700CE79FE /* ViewController.swift */,
-				41C12C6D2B501CF700CE79FE /* Main.storyboard */,
-				41C12C702B501CFC00CE79FE /* Assets.xcassets */,
-				41C12C722B501CFC00CE79FE /* LaunchScreen.storyboard */,
+				412439D32B52BE36008FFA5D /* Application */,
+				412439D12B52BE2A008FFA5D /* Service */,
+				412439D02B52BE23008FFA5D /* ViewModel */,
+				412439CF2B52BE1C008FFA5D /* Model */,
+				412439CE2B52BE17008FFA5D /* View */,
 				41C12C752B501CFC00CE79FE /* Info.plist */,
 			);
 			path = BitenTechincalTask;
+			sourceTree = "<group>";
+		};
+		BB07C135E501E1246C623428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C0B55F1F43DF76E11F9CA3 /* Pods-BitenTechincalTask.debug.xcconfig */,
+				8B1F4B2A30A4E8A427E07C2B /* Pods-BitenTechincalTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41C12C782B501CFC00CE79FE /* Build configuration list for PBXNativeTarget "BitenTechincalTask" */;
 			buildPhases = (
+				E6C9BF4ADCD50DB8A42C3CB9 /* [CP] Check Pods Manifest.lock */,
 				41C12C602B501CF700CE79FE /* Sources */,
 				41C12C612B501CF700CE79FE /* Frameworks */,
 				41C12C622B501CF700CE79FE /* Resources */,
+				0220DBCE3771EB716F2A33D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +219,52 @@
 			files = (
 				41C12C742B501CFC00CE79FE /* LaunchScreen.storyboard in Resources */,
 				41C12C712B501CFC00CE79FE /* Assets.xcassets in Resources */,
-				41C12C6F2B501CF700CE79FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0220DBCE3771EB716F2A33D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitenTechincalTask/Pods-BitenTechincalTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitenTechincalTask/Pods-BitenTechincalTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitenTechincalTask/Pods-BitenTechincalTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C9BF4ADCD50DB8A42C3CB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitenTechincalTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41C12C602B501CF700CE79FE /* Sources */ = {
@@ -139,22 +272,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C12C6C2B501CF700CE79FE /* ViewController.swift in Sources */,
+				412439CD2B52B872008FFA5D /* NatureModel.swift in Sources */,
+				412439D52B52BE97008FFA5D /* CustomModel.swift in Sources */,
+				412439D72B52C1E9008FFA5D /* CustomImage.swift in Sources */,
 				41C12C682B501CF700CE79FE /* AppDelegate.swift in Sources */,
+				412439CB2B52B7DA008FFA5D /* NetworkService.swift in Sources */,
+				41C12C7E2B50211000CE79FE /* MainCollectionViewCell.swift in Sources */,
 				41C12C6A2B501CF700CE79FE /* SceneDelegate.swift in Sources */,
+				412439C72B52B20B008FFA5D /* Layout.swift in Sources */,
+				412439C92B52B7C7008FFA5D /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41C12C6D2B501CF700CE79FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C12C6E2B501CF700CE79FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41C12C722B501CFC00CE79FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +414,7 @@
 		};
 		41C12C792B501CFC00CE79FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C0B55F1F43DF76E11F9CA3 /* Pods-BitenTechincalTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +425,6 @@
 				INFOPLIST_FILE = BitenTechincalTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +442,7 @@
 		};
 		41C12C7A2B501CFC00CE79FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1F4B2A30A4E8A427E07C2B /* Pods-BitenTechincalTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +453,6 @@
 				INFOPLIST_FILE = BitenTechincalTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
